@@ -78,4 +78,5 @@ public class ApparelSeller implements Seller, DisposableBean {
 	public void destroy() throws Exception {
 		System.out.println("Inside destroy method of ApparelSeller");
 	}
+	
 }
